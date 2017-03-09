@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Motorola Moto G (4th Gen/2016) -->
+  <project name="LineageOS/android_device_motorola_athene"
+	   path="device/motorola/athene"
+	   remote="github" />
+
+  <project name="TheMuppets/proprietary_vendor_motorola"
+	   path="vendor/motorola"
+	   remote="github" />
+
+  <project name="LineageOS/android_kernel_motorola_msm8952"
+	   path="kernel/motorola/msm8952"
+	   remote="github" />
+<!-- Sony Xperia Z1 (2013) -->
+  <project name="LineageOS/android_device_sony_honami"
+	   path="device/sony/honami"
+	   remote="github" />
+
+  <project name="TheMuppets/proprietary_vendor_sony"
+	   path="vendor/sony"
+	   remote="github" />
+ 
+  <project name="LineageOS/android_kernel_sony_msm8974"
+	   path="kernel/sony/msm8974"
+	   remote="github" />
+<!-- Non-specific Shared Repos -->
+  <project name="LineageOS/android_external_bson"
+	   path="external/bson"
+	   remote="github" />
+
+  <project name="LineageOS/android_external_stlport"
+	   path="external/stlport"
+	   remote="github" />
+
+  <project name="LineageOS/android_packages_resources_devicesettings"
+	   path="packages/resources/devicesettings"
+	   remote="github" />
+<!-- Qualcomm General -->
+  <project name="LineageOS/android_device_qcom_common"
+	   path="device/qcom/common"
+	   remote="github" />
+
+  <project name="TheMuppets/proprietary_vendor_qcom_binaries"
+	   path="vendor/qcom/binaries"
+	   remote="github" />
+
+</manifest>
